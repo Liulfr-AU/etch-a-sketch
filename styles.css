@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.gridContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    width: 85vh;
+    border: 1px solid black;
+}
+
+.buttonContainer {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    height: 20px;
+}
+
+.flex {
+    flex: 1;
+}
+
+.row {
+    display: flex;
+}
