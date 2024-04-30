@@ -9,7 +9,7 @@ body {
 .gridContainer {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex: 1;
 }
 
@@ -26,10 +26,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 50px;
+    min-width: 200px;
 }
 
-.button{
-    height: 20px;
+.sizeButton{
+    height: 50px;
+    width: 200px;
+    font-size: 30px;
 }
 
 .flex {
