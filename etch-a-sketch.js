@@ -15,4 +15,11 @@ function createGrid(){
     }
 }
 
+let grid = document.querySelector('.grid');
+grid.addEventListener('mouseover', (event) => {
+    let target = event.target;
+    if (target != grid)
+    target.style.backgroundColor = "black";
+});
+
 createGrid();
